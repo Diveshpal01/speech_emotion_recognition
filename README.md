@@ -1,13 +1,13 @@
-**Voice Emotion Classification**
+_**Voice Emotion Classification**_
 
 This repository contains code for classifying emotions in voice recordings using the RAVDESS dataset. The code uses the librosa library to extract features such as MFCC, chroma, and mel from sound files, and then trains a Multi-Layer Perceptron (MLP) classifier to predict the emotions.
 
-**Prerequisites**
+_**Prerequisites**_
 
 Python 3.x
 Required Python libraries: librosa, soundfile, numpy, scikit-learn
 
-**Code Explanation**
+_**Code Explanation**_
 
 The code is divided into several parts:
 
@@ -27,7 +27,7 @@ Model Evaluation: The model is evaluated on the testing dataset by predicting th
 
 Results: The accuracy of the model and the predicted emotions are printed.
 
-**Results**
+_**Results**_
 
 After running the code, the following results are displayed:
 
